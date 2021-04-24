@@ -6,39 +6,39 @@ plugins:
     default: 1
     client: true
   x_button_disabled:
-    default: false
-    client: true
+    default: true
+    client: false
   gate_show_only_once:
     default: false
-    client: true
+    client: false
   custom_gate_enabled:
-    default: false
-    client: true
+    default: true
+    client: false
   custom_gate_image_url:
     type: text
-    default: ''
-    client: true
+    default: 'https://careerninja.in/wp-content/uploads/2019/02/Logo-unit-_-white-BG-copy-1.png'
+    client: false
   custom_gate_big_text:
     type: text
-    default: 'Big custom text'
-    client: true
+    default: 'Please Sign Up'
+    client: false
   custom_gate_big_text_color:
     type: text
-    default: '#000000'
-    client: true
+    default: '#aaa'
+    client: false
   custom_gate_little_text:
     type: text
-    default: 'Little custom text'
-    client: true
+    default: 'Please Sign Up'
+    client: false
   custom_gate_little_text_color:
     type: text
-    default: '#000000'
-    client: true
+    default: '#aaa'
+    client: false
   custom_gate_background_color:
     type: text
     default: '#FFFFFF'
-    client: true
+    client: false
   custom_gate_link_color:
     type: text
-    default: '#787878'
-    client: true
+    default: '#aaa'
+    client: false
