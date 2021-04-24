@@ -28,7 +28,7 @@ plugins:
     client: false
   custom_gate_little_text:
     type: text
-    default: 'Please Sign Up'
+    default: 'careerninja.in'
     client: false
   custom_gate_little_text_color:
     type: text
