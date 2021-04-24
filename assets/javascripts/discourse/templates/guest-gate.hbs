@@ -89,7 +89,7 @@
     &nbsp;&nbsp;or&nbsp;
     {{d-button label="guest_gate.modal.sign_up" action="showCreateAccount"}}
   {{else}}
-  <a href="https://app.careerninja.in">{{i18n 'log_in'}}</a> |
-  <a href="https://app.careerninja.in">{{i18n 'create_account.title'}}</a>
+  <a href {{action "showLogin"}}>{{i18n 'log_in'}}</a> |
+  <a href {{action "showCreateAccount"}}>{{i18n 'create_account.title'}}</a>
   {{/if}}
 </div>
