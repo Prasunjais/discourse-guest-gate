@@ -3,3 +3,7 @@
 # version: 0.2.1
 # authors: Prasun Jaiswal (prasunjais@gmail.com)
 # url: https://github.com/Prasunjais/discourse-guest-gate
+
+enabled_site_setting :guest_gate_enabled
+
+register_asset "stylesheets/guest-gate.scss"
